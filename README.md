@@ -1,7 +1,7 @@
 # PHP-Crypto
 Originally designed to Import and Export data securely via a single GET request parameter called payload, it has now become a simple example of encryption and decryption using PHP 7 >. 
   
-The original concept was to challenge the free hosting restrictions on AwardSpace to allow get request via `header('Location: $url."?payload=");` - the test was successful and i now have a secure email backend for my account.   
+The original concept was to challenge the free hosting restrictions on AwardSpace to allow data transmission inward and outward in a secure manner, i found to use get request via `header('Location: $url."?payload=");` to import data and export data between two scripts using the browser - the test was successful and i now have a secure email backend for my account.   
 
    
    
